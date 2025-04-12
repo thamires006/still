@@ -1,0 +1,27 @@
+.campoNome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.labelNome{
+    font-family: "Agbalumo", serif;
+    font-size: 1.5em;
+    color: #4b3b20;
+}
+
+.campoTexto{
+    width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 50px;
+    background-color: #bc9d69;
+    text-align: center;
+}
+
+input::placeholder{
+    font-family: "Agbalumo", serif;
+    font-size: 1.5em;
+    color: #725c35;
+}
